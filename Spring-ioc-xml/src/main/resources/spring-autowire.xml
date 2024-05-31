@@ -7,7 +7,7 @@
     <!--若在IOC中，没有任何一个兼容类型的bean能够为属性赋值，则该属性不装配，即值为默认值null-->
     <!--若在IOC中，有多个兼容类型的bean能够为属性赋值，则抛出异常NoUniqueBeanDefinitionException-->
     <bean id="userController" class="com.ygq.spring6.bean.autowire.UserController" autowire="byType"/>
-    <bean id="userService" class="com.ygq.spring6.bean.autowire.UserServiceImpl" autowire="byType"/>
-    <bean id="userDao" class="com.ygq.spring6.bean.autowire.UserDaoImpl"/>
+    <bean id="userService" class="com.ygq.spring6.bean.autowire.Service.UserServiceImpl" autowire="byType"/>
+    <bean id="userDao" class="com.ygq.spring6.bean.autowire.DAO.UserDaoImpl"/>
 
 </beans>

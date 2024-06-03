@@ -12,6 +12,7 @@
         <module>Spring-first</module>
         <module>Spring-ioc-xml</module>
         <module>Spring-ioc-annotation</module>
+        <module>Spring-aop</module>
     </modules>
 
     <properties>

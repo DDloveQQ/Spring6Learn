@@ -13,6 +13,8 @@
         <module>Spring-ioc-xml</module>
         <module>Spring-ioc-annotation</module>
         <module>Spring-aop</module>
+        <module>Spring-junit</module>
+        <module>Spring-jdbc-tx</module>
     </modules>
 
     <properties>

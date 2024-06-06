@@ -17,6 +17,7 @@
         <module>Spring-jdbc-tx</module>
         <module>spring-resources</module>
         <module>Spring-i18n</module>
+        <module>Spring-validator</module>
     </modules>
 
     <properties>
